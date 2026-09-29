@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">骑单车的珠颈斑鸠</title>
+  <desc id="desc">一只珠颈斑鸠骑着红色单车，迎风向右行驶。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9eff2"/>
+      <stop offset="1" stop-color="#f7dfb2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#5b4034" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="480" rx="26" fill="url(#sky)"/>
+  <path d="M0 360 Q120 330 240 362 T480 355 T640 350 V480 H0Z" fill="#d5c29c"/>
+  <path d="M0 397 Q150 370 300 398 T640 391" fill="none" stroke="#a88e6a" stroke-width="8" stroke-linecap="round" opacity=".45"/>
+  <g fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".7">
+    <path d="M64 130h72"/><path d="M90 156h44"/><path d="M490 110h82"/><path d="M520 137h52"/>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse cx="337" cy="416" rx="196" ry="18" fill="#624b3e" opacity=".2"/>
+
+  <!-- bicycle -->
+  <g filter="url(#shadow)" stroke="#3c3340" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="206" cy="364" r="62" fill="#e8f2ef" stroke-width="8"/>
+    <circle cx="452" cy="364" r="62" fill="#e8f2ef" stroke-width="8"/>
+    <g stroke="#9ab4b2" stroke-width="3" opacity=".8">
+      <path d="M206 302v124M144 364h124M162 320l88 88M250 320l-88 88"/>
+      <path d="M452 302v124M390 364h124M408 320l88 88M496 320l-88 88"/>
+    </g>
+    <path d="M206 364l72-88 87 88-159 0 72-88 41-44" fill="none" stroke="#d64b49" stroke-width="10"/>
+    <path d="M278 276l-18-43M260 233h-39" fill="none" stroke-width="9"/>
+    <path d="M365 364l34-91M399 273h36" fill="none" stroke-width="9"/>
+    <path d="M263 230h-25" fill="none" stroke="#d64b49" stroke-width="8"/>
+    <circle cx="278" cy="276" r="11" fill="#f6c84b" stroke-width="5"/>
+    <path d="M278 276l-25 29M278 276l30 20" fill="none" stroke-width="6"/>
+    <circle cx="253" cy="305" r="7" fill="#f6c84b" stroke-width="3"/>
+    <circle cx="308" cy="296" r="7" fill="#f6c84b" stroke-width="3"/>
+  </g>
+
+  <!-- bird body and tail -->
+  <g filter="url(#shadow)" stroke="#3b3040" stroke-linejoin="round">
+    <path d="M280 258 Q245 237 236 204 Q229 177 245 151 Q263 122 300 128 Q336 134 349 169 Q358 193 343 220 Q329 247 302 263Z" fill="#8c8b92" stroke-width="7"/>
+    <path d="M248 218l-48 25 24-45z" fill="#6f707b" stroke-width="6"/>
+    <path d="M291 151 Q313 162 329 189 Q311 208 280 215 Q267 195 271 173Z" fill="#c0c1c4" stroke-width="5"/>
+    <path d="M278 175 Q294 164 315 177 L307 188 Q291 182 276 192Z" fill="#6d4b55" stroke-width="3"/>
+    <g fill="#eadfce" stroke="none">
+      <circle cx="285" cy="177" r="3"/><circle cx="294" cy="174" r="3"/><circle cx="303" cy="179" r="3"/>
+      <circle cx="289" cy="184" r="3"/><circle cx="299" cy="183" r="3"/><circle cx="308" cy="187" r="3"/>
+    </g>
+    <!-- neck and head -->
+    <path d="M303 139 Q300 109 319 91 Q336 77 355 91 Q371 103 365 122 Q360 142 338 151Z" fill="#a7a6aa" stroke-width="7"/>
+    <path d="M330 92 Q344 76 365 84 Q386 92 389 108 Q381 122 360 124 Q346 117 330 92Z" fill="#b8b8bb" stroke-width="7"/>
+    <path d="M365 101l29 9-27 11z" fill="#d68e52" stroke-width="5"/>
+    <circle cx="365" cy="99" r="6" fill="#26232d" stroke-width="3"/>
+    <circle cx="367" cy="97" r="2" fill="#fff" stroke="none"/>
+    <!-- feet -->
+    <path d="M286 246l-5 34M317 244l-8 35" fill="none" stroke="#cf8650" stroke-width="8"/>
+    <path d="M281 280l-14 5M281 280l12 4M309 279l-14 6M309 279l13 4" fill="none" stroke="#cf8650" stroke-width="5"/>
+    <!-- wing -->
+    <path d="M278 158 Q246 167 242 204 Q263 224 294 217 Q313 204 316 182 Q303 160 278 158Z" fill="#777982" stroke-width="6"/>
+    <path d="M252 196l39-22M258 207l41-22M268 214l37-21" fill="none" stroke="#aeb0b5" stroke-width="5" opacity=".8"/>
+  </g>
+
+  <!-- little motion marks -->
+  <g fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".8">
+    <path d="M88 282h75"/><path d="M110 303h38"/>
+  </g>
+</svg>

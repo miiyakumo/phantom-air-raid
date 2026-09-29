@@ -1,0 +1,26 @@
+{
+  "name": "phantom-air-raid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "幻翼合体：空袭升级 - Minecraft 同人轻量网页 STG",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "game:play": "node scripts/play-game.mjs",
+    "game:control": "node scripts/control-game.mjs",
+    "verify:gameplay": "node scripts/verify-gameplay.mjs",
+    "verify:production": "npm run build && node scripts/verify-production.mjs",
+    "verify": "node scripts/verify-balance.mjs && node scripts/verify-economy.mjs && node scripts/run-ts-test.mjs scripts/verify-encounter.mjs"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "playwright": "^1.63.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}

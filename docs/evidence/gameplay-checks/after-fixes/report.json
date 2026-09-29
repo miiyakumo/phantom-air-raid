@@ -1,0 +1,48 @@
+[
+  {
+    "name": "opening-combat",
+    "passed": false,
+    "error": "page.evaluate: TypeError: Cannot read properties of undefined (reading 'xp')\n    at BattleScene.claimGroundLoot (http://127.0.0.1:5173/src/scenes/BattleScene.ts:2747:46)\n    at http://127.0.0.1:5173/src/scenes/BattleScene.ts:2734:14\n    at Set2.each (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:118555:29)\n    at BattleScene.pullPickups (http://127.0.0.1:5173/src/scenes/BattleScene.ts:2695:27)\n    at BattleScene.update (http://127.0.0.1:5173/src/scenes/BattleScene.ts:465:10)\n    at Systems2.step (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:112622:38)\n    at SceneManager2.update (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:110774:29)\n    at Game2.step (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:8625:32)\n    at Object.step (http://127.0.0.1:5173/src/debug/game-debug.ts:122:14)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:25)"
+  },
+  {
+    "name": "enemy-projectile",
+    "passed": false,
+    "error": "Real physics overlap must damage the player"
+  },
+  {
+    "name": "shop-hook-click",
+    "passed": true,
+    "evidence": {
+      "hooks": 1,
+      "gems": 155
+    }
+  },
+  {
+    "name": "restart-listeners",
+    "passed": true,
+    "evidence": {
+      "listenerCounts": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "name": "pause-resume",
+    "passed": true,
+    "evidence": {
+      "pausedAtMs": 283.333,
+      "resumedAtMs": 783.333
+    }
+  },
+  {
+    "name": "directional-shield",
+    "passed": true,
+    "evidence": {
+      "frontStacks": 0,
+      "backStacks": 1
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "opening-combat",
+    "passed": false,
+    "error": "page.evaluate: TypeError: Cannot read properties of undefined (reading 'time')\n    at get grudging (http://127.0.0.1:5173/src/entities/PhantomEntity.ts:292:23)\n    at BattleScene.hitEnemy (http://127.0.0.1:5173/src/scenes/BattleScene.ts:1051:15)\n    at BattleScene.onShotHit (http://127.0.0.1:5173/src/scenes/BattleScene.ts:965:10)\n    at World2.collideSpriteVsGroup (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:83178:45)\n    at World2.collideGroupVsGroup (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:83413:28)\n    at World2.collideHandler (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:83082:37)\n    at World2.collideObjects (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:83017:28)\n    at Collider2.update (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:80152:32)\n    at World2.update (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:82432:36)\n    at EventEmitter2.emit (http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=b81b760e:120:43)"
+  },
+  {
+    "name": "enemy-projectile",
+    "passed": false,
+    "error": "Enemy projectile must retain launch velocity after group insertion"
+  },
+  {
+    "name": "shop-hook-click",
+    "passed": false,
+    "error": "Clicking the hook offer must buy the hook\n\n0 !== 1\n"
+  },
+  {
+    "name": "restart-listeners",
+    "passed": false,
+    "error": "Restart must not accumulate gameplay event listeners\n+ actual - expected\n\n  [\n    1,\n+   2,\n+   3,\n+   4\n-   1,\n-   1,\n-   1\n  ]\n"
+  },
+  {
+    "name": "pause-resume",
+    "passed": false,
+    "error": "No browser or frame errors\n+ actual - expected\n\n+ [\n+   {\n+     message: 'Failed to load resource: the server responded with a status of 404 (Not Found)',\n+     type: 'console'\n+   }\n+ ]\n- []\n"
+  },
+  {
+    "name": "directional-shield",
+    "passed": false,
+    "error": "Front-facing shield must block incoming shots\n\n1 !== 0\n"
+  }
+]

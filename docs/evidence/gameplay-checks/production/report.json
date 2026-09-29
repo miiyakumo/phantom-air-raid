@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "productionBundleHasDebugBridge": false,
+  "debugQueryHasNoEffect": true,
+  "realtimeInputSeconds": 4.8,
+  "browserErrors": []
+}

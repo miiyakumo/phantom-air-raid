@@ -1,0 +1,82 @@
+[
+  {
+    "name": "opening-combat",
+    "passed": true,
+    "evidence": {
+      "kills": 1,
+      "volleys": 6,
+      "hp": 100
+    }
+  },
+  {
+    "name": "enemy-projectile",
+    "passed": true,
+    "evidence": {
+      "initialY": 182.833,
+      "finalY": 239.5,
+      "hpAfterHit": 93
+    }
+  },
+  {
+    "name": "shop-hook-click",
+    "passed": true,
+    "evidence": {
+      "hooks": 1,
+      "gems": 155
+    }
+  },
+  {
+    "name": "mobile-shop",
+    "passed": true,
+    "evidence": {
+      "hooks": 1,
+      "gems": 155
+    }
+  },
+  {
+    "name": "restart-listeners",
+    "passed": true,
+    "evidence": {
+      "listenerCounts": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "name": "pause-resume",
+    "passed": true,
+    "evidence": {
+      "pausedAtMs": 283.333,
+      "resumedAtMs": 783.333
+    }
+  },
+  {
+    "name": "directional-shield",
+    "passed": true,
+    "evidence": {
+      "frontStacks": 0,
+      "backStacks": 1
+    }
+  },
+  {
+    "name": "seeded-replay",
+    "passed": true,
+    "evidence": {
+      "frame": 242,
+      "kills": 2,
+      "fullSnapshotMatches": true
+    }
+  },
+  {
+    "name": "realtime-combat",
+    "passed": true,
+    "evidence": {
+      "elapsedMs": 5635.24,
+      "kills": 5,
+      "hp": 100
+    }
+  }
+]

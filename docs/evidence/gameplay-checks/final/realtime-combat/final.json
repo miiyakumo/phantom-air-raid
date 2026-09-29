@@ -1,0 +1,567 @@
+{
+  "version": 1,
+  "seed": "1",
+  "manual": false,
+  "ready": true,
+  "frame": 0,
+  "fixture": null,
+  "scene": "Battle",
+  "viewport": {
+    "width": 960,
+    "height": 540
+  },
+  "texts": [
+    {
+      "text": "生命",
+      "x": 20,
+      "y": 38,
+      "width": 26,
+      "height": 13.349,
+      "interactive": false
+    },
+    {
+      "text": "LV 1",
+      "x": 220,
+      "y": 18,
+      "width": 44,
+      "height": 18.343,
+      "interactive": false
+    },
+    {
+      "text": "经验",
+      "x": 300,
+      "y": 38,
+      "width": 26,
+      "height": 13.349,
+      "interactive": false
+    },
+    {
+      "text": "0:05   击败 5",
+      "x": 814,
+      "y": 18,
+      "width": 126,
+      "height": 17.457,
+      "interactive": false
+    },
+    {
+      "text": "Ⅱ",
+      "x": 926,
+      "y": 48,
+      "width": 14,
+      "height": 22.591,
+      "interactive": true
+    },
+    {
+      "text": "咬住",
+      "x": 65.261,
+      "y": 28.429,
+      "width": 36,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "边缘截击位置",
+      "x": 616.667,
+      "y": 404.129,
+      "width": 108,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "不在正面 · 技能拖慢",
+      "x": 582.167,
+      "y": 518.462,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "穿到另一侧 · 绕圈反向",
+      "x": 573.167,
+      "y": 518.462,
+      "width": 195,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "离开正面 · 追丢",
+      "x": 600.167,
+      "y": 518.462,
+      "width": 141,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "离开正面 · 追丢",
+      "x": 199.574,
+      "y": -44.508,
+      "width": 141,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "扑空",
+      "x": 652.667,
+      "y": 518.958,
+      "width": 36,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "穿到另一侧 · 绕圈反向",
+      "x": 663.5,
+      "y": 519.454,
+      "width": 195,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "回到正面 · 又锁住",
+      "x": 681.5,
+      "y": 519.454,
+      "width": 159,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "扑空",
+      "x": 742.1,
+      "y": 519.892,
+      "width": 36,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "侧击",
+      "x": 697.641,
+      "y": 213.261,
+      "width": 36,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "飞着没吃到侧伤",
+      "x": 652.641,
+      "y": 225.261,
+      "width": 126,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "侧击可接 · 横穿落点再按 [U]/[I]",
+      "x": 566.141,
+      "y": 225.261,
+      "width": 299,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "没穿过 · 掉落留在原地",
+      "x": 618.141,
+      "y": 213.261,
+      "width": 195,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "扑空掉落翻倍",
+      "x": 661.641,
+      "y": 197.261,
+      "width": 108,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "拾取 +4 ◆",
+      "x": 585,
+      "y": 411,
+      "width": 98,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "咬住",
+      "x": 234.891,
+      "y": 291.45,
+      "width": 36,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "没穿过去 · 绕圈不变",
+      "x": 81.741,
+      "y": 94.005,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "不在正面 · 技能拖慢",
+      "x": 84.821,
+      "y": 96.165,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "没穿过去 · 绕圈不变",
+      "x": 583.067,
+      "y": 435.412,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "侧击 1/3",
+      "x": 631.567,
+      "y": 432.379,
+      "width": 80,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "不在正面 · 技能拖慢",
+      "x": 583.067,
+      "y": 432.379,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "没穿过去 · 绕圈不变",
+      "x": 605.669,
+      "y": 461.607,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "站在正面 · 技能回充",
+      "x": 603.325,
+      "y": 459.474,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "边缘截击位置",
+      "x": 466.333,
+      "y": 424.079,
+      "width": 108,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "不在正面 · 技能拖慢",
+      "x": 598.039,
+      "y": 470.016,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "不在正面 · 技能拖慢",
+      "x": 431.833,
+      "y": 538.412,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "穿到另一侧 · 绕圈反向",
+      "x": 422.833,
+      "y": 538.412,
+      "width": 195,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "离开正面 · 追丢",
+      "x": 449.833,
+      "y": 538.412,
+      "width": 141,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "侧击没接上",
+      "x": 471.667,
+      "y": 424.546,
+      "width": 90,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "扑空",
+      "x": 502.333,
+      "y": 538.879,
+      "width": 36,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "穿到另一侧 · 绕圈反向",
+      "x": 251.876,
+      "y": 335.671,
+      "width": 195,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "不在正面 · 技能拖慢",
+      "x": 264.254,
+      "y": 337.054,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "站在正面 · 技能回充",
+      "x": 267.323,
+      "y": 337.099,
+      "width": 177,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "离开正面 · 追丢",
+      "x": 123.97,
+      "y": 100.206,
+      "width": 141,
+      "height": 18.483,
+      "interactive": false
+    },
+    {
+      "text": "第 1 章 · 4 ◆  [E] 商店",
+      "x": 20,
+      "y": 512,
+      "width": 215,
+      "height": 16.43,
+      "interactive": true
+    },
+    {
+      "text": "[空格] 末影冲刺  [Q] 锁定  [V]弹反  [J]射击  热70  直飞",
+      "x": 459,
+      "y": 512,
+      "width": 481,
+      "height": 16.43,
+      "interactive": true
+    }
+  ],
+  "elapsedMs": 5651.9,
+  "paused": false,
+  "finished": false,
+  "player": {
+    "x": 480,
+    "y": 461.667,
+    "vx": 0,
+    "vy": 0,
+    "bodyEnabled": true,
+    "hp": 100,
+    "maxHp": 100
+  },
+  "progression": {
+    "level": 1,
+    "xp": 2,
+    "attack": 18,
+    "fireInterval": 360,
+    "projectileCount": 1,
+    "maxHealth": 100,
+    "speed": 220,
+    "closeDamage": 0.35,
+    "closeRange": 150,
+    "comboPower": 0.08,
+    "pierce": 0,
+    "magnet": 72,
+    "vent": 0,
+    "flankStance": 0,
+    "rushStance": 0
+  },
+  "economy": {
+    "gems": 4,
+    "pendingUpgrades": 0,
+    "hooks": 0,
+    "apples": 0
+  },
+  "chapter": {
+    "index": 0,
+    "elapsedMs": 4208.212,
+    "kills": 5,
+    "bossAlive": false,
+    "finished": false
+  },
+  "kills": 5,
+  "volleys": 16,
+  "heat": 69.433,
+  "overheated": false,
+  "stallMs": 16.66,
+  "dashCooldownMs": 0,
+  "enemies": [
+    {
+      "x": 359.009,
+      "y": 363.657,
+      "vx": 48.884,
+      "vy": -22.943,
+      "bodyEnabled": true,
+      "variant": "phantom",
+      "boss": false,
+      "elite": false,
+      "hp": 30,
+      "maxHp": 30,
+      "phase": 1,
+      "flankStacks": 0,
+      "ability": false,
+      "abilityElapsed": 949.97
+    },
+    {
+      "x": 195.342,
+      "y": 127.224,
+      "vx": 54,
+      "vy": 0,
+      "bodyEnabled": true,
+      "variant": "phantom",
+      "boss": false,
+      "elite": true,
+      "hp": 54,
+      "maxHp": 54,
+      "phase": 1,
+      "flankStacks": 0,
+      "ability": false,
+      "abilityElapsed": 949.97
+    },
+    {
+      "x": 53.74,
+      "y": 468.976,
+      "vx": 25.22,
+      "vy": 47.749,
+      "bodyEnabled": true,
+      "variant": "phantom",
+      "boss": false,
+      "elite": false,
+      "hp": 30,
+      "maxHp": 30,
+      "phase": 1,
+      "flankStacks": 0,
+      "ability": false,
+      "abilityElapsed": 0
+    },
+    {
+      "x": 315.945,
+      "y": 6.309,
+      "vx": 54,
+      "vy": 0,
+      "bodyEnabled": true,
+      "variant": "phantom",
+      "boss": false,
+      "elite": true,
+      "hp": 54,
+      "maxHp": 54,
+      "phase": 1,
+      "flankStacks": 0,
+      "ability": false,
+      "abilityElapsed": 0
+    },
+    {
+      "x": 680.12,
+      "y": 509.14,
+      "vx": -34.95,
+      "vy": 41.164,
+      "bodyEnabled": true,
+      "variant": "phantom",
+      "boss": false,
+      "elite": false,
+      "hp": 30,
+      "maxHp": 30,
+      "phase": 1,
+      "flankStacks": 0,
+      "ability": false,
+      "abilityElapsed": 943.31
+    },
+    {
+      "x": 691.367,
+      "y": 469.333,
+      "vx": 54,
+      "vy": 0,
+      "bodyEnabled": true,
+      "variant": "phantom",
+      "boss": false,
+      "elite": true,
+      "hp": 54,
+      "maxHp": 54,
+      "phase": 1,
+      "flankStacks": 1,
+      "ability": false,
+      "abilityElapsed": 943.31
+    },
+    {
+      "x": 521.233,
+      "y": 537,
+      "vx": 0,
+      "vy": -220,
+      "bodyEnabled": true,
+      "variant": "phantom",
+      "boss": false,
+      "elite": false,
+      "hp": 30,
+      "maxHp": 30,
+      "phase": 1,
+      "flankStacks": 0,
+      "ability": true,
+      "abilityElapsed": 626.66
+    }
+  ],
+  "shots": [
+    {
+      "x": 759.759,
+      "y": 124.182,
+      "vx": 111.311,
+      "vy": -404.981,
+      "bodyEnabled": true,
+      "damage": 18,
+      "friendly": 0
+    },
+    {
+      "x": 470.034,
+      "y": 439.433,
+      "vx": -356.324,
+      "vy": -222.336,
+      "bodyEnabled": true,
+      "damage": 18,
+      "friendly": 0
+    }
+  ],
+  "enemyShots": [],
+  "pickups": 4,
+  "panel": [],
+  "listeners": {
+    "start": 12,
+    "destroy": 13,
+    "shutdown": 14,
+    "update": 5,
+    "preupdate": 3,
+    "transitionstart": 1,
+    "transitionout": 1,
+    "transitioncomplete": 1,
+    "pause": 1,
+    "sleep": 1,
+    "postupdate": 1,
+    "shield-turned": 1,
+    "shield-held": 1,
+    "skill-fed": 1,
+    "skill-starved": 1,
+    "face-turned": 1,
+    "face-held": 1,
+    "orbit-flipped": 1,
+    "orbit-held": 1,
+    "chase-lost": 1,
+    "chase-caught": 1,
+    "rage-leashed": 1,
+    "rage-loose": 1,
+    "rage-calmed": 1,
+    "rage-fueled": 1,
+    "expose-held": 1,
+    "expose-burst": 1,
+    "expose-front": 1,
+    "expose-front-lost": 1
+  }
+}

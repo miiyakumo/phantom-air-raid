@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "seed": "7",
+  "viewport": {
+    "width": 960,
+    "height": 540
+  },
+  "actions": [
+    {
+      "keys": [
+        "Enter"
+      ],
+      "frames": 2
+    },
+    {
+      "keys": [
+        "w",
+        "j"
+      ],
+      "frames": 50
+    },
+    {
+      "keys": [
+        "d",
+        "j"
+      ],
+      "frames": 60
+    },
+    {
+      "keys": [
+        "p"
+      ],
+      "frames": 1
+    },
+    {
+      "keys": [],
+      "frames": 90
+    },
+    {
+      "keys": [
+        "p",
+        "s",
+        "j"
+      ],
+      "frames": 60
+    }
+  ]
+}

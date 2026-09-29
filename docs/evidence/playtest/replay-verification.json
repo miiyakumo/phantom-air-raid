@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "original": "seed-1/final.json",
+  "replayed": "seed-1-replayed/final.json",
+  "frame": 2043,
+  "elapsedMs": 33516.667,
+  "kills": 14
+}
